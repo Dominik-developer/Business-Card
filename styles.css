@@ -1,0 +1,63 @@
+
+body {
+    background: url("https://cdn.pixabay.com/photo/2019/08/09/05/03/skyline-4394301_1280.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: aliceblue;
+}
+
+.container {
+    margin: auto;
+    margin-top: 200px;
+    padding: 30px;
+    width: 400px;
+    height: 160px;
+    background-color: black;
+    color: silver;
+    /*border-radius: 4px;*/
+}
+
+.business-card img {
+    float: left;
+    height: 128px;
+    width: 128px;
+   /* border-radius: 4px;*/
+    
+}
+
+.username, .content, .download-cv {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.username span {
+    border-bottom: 2px solid red;
+    padding-bottom: 4px;
+    font-size: 16px;
+}
+
+.content {
+    font-size: 15px;
+}
+
+.content#job {
+    margin-top: 10px;
+}
+
+.content#email {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.download-cv a {
+    color: red;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.download-cv a:hover {
+    color: red;
+    font-size: 14px;
+    text-decoration:underline;
+}
+
+
