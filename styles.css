@@ -1,6 +1,6 @@
 
 body {
-    background: url("https://cdn.pixabay.com/photo/2019/08/09/05/03/skyline-4394301_1280.jpg") no-repeat center center fixed;
+    background: url("") no-repeat center center fixed; /* between " and " add link to background picture */
     background-size: cover;
     background-color: aliceblue;
 }
